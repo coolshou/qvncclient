@@ -6,11 +6,14 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = QVNCClient
 TEMPLATE = app
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    qvncclientwidget.cpp
+SOURCES += \
+    src/main.cpp\
+    src/mainwindow.cpp \
+    src/qvncclientwidget.cpp
 
-HEADERS  += mainwindow.h \
-    qvncclientwidget.h
+HEADERS  += \
+    src/mainwindow.h \
+    src/qvncclientwidget.h
 
-FORMS    += mainwindow.ui
+FORMS    += \
+    src/mainwindow.ui
